@@ -42,7 +42,7 @@ A console-based simulation of a mobile phone built in C/C++.
 
 - **Bachelor of Software Engineering (BSE)** - National University of Computer and Emerging Sciences (2024-2028)
 - **Web Developer** - HTA (2024 - Present)
-- **Web Developer & Graphic Designer** - Fiverr (2023 - 2024)
+- **Intermediate** - Bahria College Karsaz (2022-2024)
 
 ## Let's Connect
 
