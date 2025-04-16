@@ -3,9 +3,9 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Syed Arham - My Portfolio Site</title>
+    <title>Syed Arham - My Portfolio</title>
     <meta name="description" content="This is my personal portfolio">
-    <meta name="keywords" content="personal portfolio, creative, resume, cv, responsive, html5, css3, react">
+    <meta name="keywords" content="personal portfolio, creative, resume, cv, template, one page, responsive, html5, css3">
     <meta name="author" content="mix_design">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/loaders/loader.css">
     <link rel="stylesheet" type="text/css" href="css/plugins.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <meta name="google-site-verification" content="6xo4BTqqc9oKPEj4vP204y-vOGs_rsXshEeZuakI7gw" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
     <meta name="msapplication-navbutton-color" content="#111111">
@@ -399,7 +399,7 @@
                   <span class="resume-lines__date animate-in-up">2024 - 2028</span>
                 </div>
                 <div class="col-12 col-md-5">
-                  <h5 class="resume-lines__title animate-in-up">Bachelor of Software Engineering (BSE) - Computer Science</h5>
+                  <h5 class="resume-lines__title animate-in-up">Bachelor of Software Engineering (BSSE) - Computer Science</h5>
                   <p class="resume-lines__source animate-in-up">Certification by
                     <a href="https://www.nu.edu.pk/" class="text-link-bold" target="_blank">National University of Computer and Emerging Sciences</a>
                   </p>
@@ -468,7 +468,7 @@
                 <div class="col-12 col-md-5">
                   <h5 class="resume-lines__title animate-in-up">Web Developer & Graphic Designer</h5>
                   <p class="resume-lines__source animate-in-up">At
-                    <a href="fiverr.com" class="text-link-bold" target="_blank"> Fiverr</a>
+                    <a href="javascript:void(0)" class="text-link-bold" target="_blank"> Fiverr</a>
                   </p>
                 </div>
                 <div class="col-12 col-md-5">
@@ -1059,6 +1059,35 @@
     <script src="js/app.js"></script>
     <script src="js/gallery-init.js"></script>
     
+    <!-- CUSTOM CURSOR-->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <style>
+    @media (max-width: 1024px) {
+      .k-cursor, .k-cursor__trailing {
+        display: none !important;
+      }
+    }
+
+    .k-cursor__trailing {
+      opacity: 0.7;
+      filter: blur(2px);
+    }
+  </style>
+  <script src="https://unpkg.com/kursor"></script>
+  <script>
+    if (window.innerWidth > 1024) {
+      new kursor({
+        type: 1,
+        color: '#e91e63',
+        removeDefaultCursor: true
+      });
+    }
+  </script>
+    
+    </html>
+
+
+
   </body>
 
 </html>
